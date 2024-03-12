@@ -1,6 +1,6 @@
-import express, {  json } from "express";
+import express, { json } from 'express';
 
 const app = express();
 
 app.use(json());
-app.listen(3333, () => console.log('🚀👩‍🚀 rodando na porta 33333'));
+app.listen(3333, () => console.log('🚀👩‍🚀 rodando na porta 3333'));
