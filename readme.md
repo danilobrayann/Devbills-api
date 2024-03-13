@@ -19,3 +19,5 @@ npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 <br>
 npm i -D eslint-plugin-import-helpers
 <br>
+npm i -D tsx
+<br>
