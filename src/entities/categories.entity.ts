@@ -1,14 +1,14 @@
-type CategoriesProps ={
-id?: string,
-title: string,
-color: string,
-}
+type CategoriesProps = {
+  id?: string;
+  title: string;
+  color: string;
+};
 
 export class Categories {
   public id?: string;
   public title: string;
   public color: string;
-  constructor({id, title, color}: CategoriesProps) {
+  constructor({ id, title, color }: CategoriesProps) {
     this.id = id;
     this.title = title;
     this.color = color.toUpperCase();
@@ -16,6 +16,6 @@ export class Categories {
 }
 
 const category = new Categories({
-    title: 'titlo',
-    color: '#f54'
+  title: "titlo",
+  color: "#f54",
 });

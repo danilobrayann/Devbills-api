@@ -21,3 +21,7 @@ npm i -D eslint-plugin-import-helpers
 <br>
 npm i -D tsx
 <br>
+
+## Docker
+docker-compose up -d
+<br>
