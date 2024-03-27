@@ -25,3 +25,4 @@ npm i -D tsx
 ## Docker
 docker-compose up -d
 <br>
+docker system prune --all --volumes
